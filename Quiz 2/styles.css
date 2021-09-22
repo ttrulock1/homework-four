@@ -1,0 +1,29 @@
+body {
+    margin: 0 auto;
+  max-width: 600px;
+    font-family: sans-serif;
+  text-align: center;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+}
+time {
+    font-family: monospace;
+    display: inline-block;
+    width: 50px;
+}
+main {
+    display: none;
+}
+.quiz main {
+    display: block;
+}
+.quiz footer {
+    display: none;
+}
+ol {
+  display: table;
+  margin: 0 auto;
+  padding-left: 0;
+}

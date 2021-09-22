@@ -4,31 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width">
 	<title>Quiz</title>
-  	<link rel="stylesheet" href="styles.css" />
-    <style>
-        body {
-      		margin: 0;
-          	font-family: sans-serif;
-      	}
-        header {
-      		display: flex;
-          	justify-content: space-between;
-      	}
-        time {
-      		font-family: monospace;
-          	display: inline-block;
-          	width: 50px;
-      	}
-        main {
-      		display: none;
-      	}
-        .quiz main {
-      		display: block;
-      	}
-        .quiz footer {
-      		display: none;
-      	}
-  	</style>
+<link rel="stylesheet" href="styles.css">
     <script src="script.js"></script>
   
 </head>
@@ -39,7 +15,8 @@
   	</header>
     <main></main>
     <footer>
-        <button>Start Game</button>
+		<input placeholder="My initials" />
+        <button disabled>Start Game</button>
         <h3></h3>
         <h4>High Scores</h4>	
         <ol></ol>
