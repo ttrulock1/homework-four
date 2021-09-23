@@ -163,23 +163,66 @@ document.querySelector("footer ol").innerHTML = html;
   //data (also global)
   const questions = [
       {
-        q: "Q1",
+        q: "Who was the gutarist in Black Sabbath?",
           a: [
-            "correct", "incorrect", "incorrect", "incorrect"
+            "Tony Iommi", "George Harrison", "Jimmy Page", "Slash"
           ]
       },
       {
-        q: "Q2",
+        q: "What guitarist replaced Brian Jones in the Rolling Stones?",
           a: [
-            "correct", "incorrect", "incorrect", "incorrect"
+            "Mick Taylor", "Robbie Robertson", "Eric Clapton", "Ron Wood"
+          ]
+      },
+      {
+        q: "What guitarist did Jimi Hendrix actually say was his favorite guitarist?",
+          a: [
+            "Billy Gibbons", "Roland Bautista", "Eric Clapton", "Terry Kath"
+          ]
+      },
+      {
+        q: "What musician never played as a guitarist in Metallica?",
+          a: [
+            "Randy Rhodes", "Dave Mustaine", "James Hetfield", "Kirk Hammitt"
           ]
       },
     {
-        q: "Q3",
+        q: "Which guitarist never played in a punk band?",
           a: [
-            "correct", "incorrect", "incorrect", "incorrect"
+            "Luther Perkins", "Raymond Pepperall", "Greg Ginn", "Paul Caiafa"
           ]
       },
+      {
+        q: "Who wasn't one of the primary guitarist of CSNY?",
+          a: [
+            "Stephen Stills", "Neil Young", "David Crosby", "Graham Nash"
+          ]
+      },
+      {
+        q: "What guitarist came to tour with Ozzy Osborne in the early 80s?",
+          a: [
+            "Randy Rhodes", "Robbie Roberston", "Ronnie Wood", "Robin Finck"
+          ]
+      },
+      {
+        q: "Which Ramone was the play guitar for the Ramones?",
+          a: [
+            "DiDi Ramone", "Joey Ramone", "Tommy Ramone", "Mickey Ramone"
+          ]
+      },
+      {
+        q: "What widley acclaimed guitarist is still alive as of 2021?",
+          a: [
+            "Slash", "Jerry Garcia", "Jimi Hendrix", "George Harrison"
+          ]
+      },
+      {
+        q: "What guitarist never played with a 'jam band?' ",
+          a: [
+            "The Edge", "Jerry Garcia", "John Mayer", "Hunter Brown"
+          ]
+      },
+
   ];
 
   //helper functions
